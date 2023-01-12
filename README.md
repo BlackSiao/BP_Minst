@@ -1,6 +1,6 @@
 ## 项目说明
 
-1. 使用方法：python 运行 board.py
+1. 使用方法：python 运行 board.py，使用NN_train文件训练神经网络模型
 
 2. 可能需要额外安装的python库：pygame,numpy
 
@@ -10,7 +10,8 @@
    -- NN.py：神经网络的类的定义
    -- recognize.py ：包含图片处理，以及图片识别程序的入口
    -- weights.npy : 神经网络各层的参数
-   -- 技术报告： 详细讲诉了程序是如何处理的(技术报告中的gui使用java写的，神经网络和图爿处理与此案例一样）
+   -- 技术报告： 详细说明了项目的内容，各函数的作用：包括最小损失率，混淆矩阵的验证等等
+   --t10k-images等文件是Minst数据集的原始数据，格式为28*28的白底黑字图片
 
 ## 项目演示
 
@@ -18,6 +19,4 @@
 
 ![](https://cdn.jsdelivr.net/gh/QYHcrossover/blog-imgbed/blogimg/20200525162137.gif)
 
-### 多个数字
-
-![](https://cdn.jsdelivr.net/gh/QYHcrossover/blog-imgbed/blogimg/20200525162524.gif)# -
+## 任何问题请发送邮件到： BlackHSiao@qq.com
